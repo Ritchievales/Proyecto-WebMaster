@@ -1,0 +1,129 @@
+<html lang="es">
+<head>
+	<title>ZapateriaOnline</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta name="description" content="Productos de tienda Online de zapatos" />
+   	<meta name="keywords" 	 content="Calzado,Dama,Caballero,Infantil,Vestir,Casual" />
+	<meta charset="UTF-8" /> 
+	<link type="text/css" rel="stylesheet" href="css/estiloCarrito.css">
+	<link href="img/shoes.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+	<footer id="header"></footer>
+	<script src="js/jquery-1.9.1.min.js"></script>
+ 	<script type="text/javascript">
+	      $('#header').load('header.html');
+	</script>	
+	<div> 
+		<select class="filtro" name="ordenar">
+					<option select value="0">Ordenar por</option>
+					<option value="1">Menor a Mayor precio</option>
+					<option value="2">Mayor a Menor precio</option>
+					<option value="3">De Z...A</option>
+					<option value="2">De A...Z</option>				
+		</select>
+	</div>
+	<seccion class="productoCarrito"/>
+              <div class="grupoProducto">
+		    <div class="tituloProducto">
+		    </div>
+		    <div class="detalleProducto">
+			    <div class="divProducto">
+				<div class="imgProducto">
+					<img src="img/zapato.jpg" width="100%" height="100%" alt="zapato" />
+				</div>
+			    </div>
+			    <div class="nombreProducto">
+				<p class="pNombreProducto">NombreProducto</p>
+			    </div>
+			    <div class="cantidadProducto">
+				<p class="pcantidadProducto">Talla:24</p>
+			    </div>
+			    <div class="precioProducto">
+				<p class="pPrecioProducto">$400</p>
+			    </div>
+		    </div>
+		</div>
+		<div class="grupoProducto">
+		    <div class="tituloProducto">
+		    </div>
+		    <div class="detalleProducto">
+			    <div class="divProducto">
+				<div class="imgProducto">
+					<img src="img/zapato.jpg" width="100%" height="100%" alt="zapato" />
+				</div>
+			    </div>
+			    <div class="nombreProducto">
+				<p class="pNombreProducto">NombreProducto</p>
+			    </div>
+			    <div class="cantidadProducto">
+				<p class="pcantidadProducto">Talla:24</p>
+			    </div>
+			    <div class="precioProducto">
+				<p class="pPrecioProducto">$400</p>
+			    </div>
+		    </div>
+		</div>
+		<div class="grupoProducto">
+		    <div class="tituloProducto">
+		    </div>
+		    <div class="detalleProducto">
+			    <div class="divProducto">
+				<div class="imgProducto">
+					<img src="img/zapato.jpg" width="100%" height="100%" alt="zapato" />
+				</div>
+			    </div>
+			    <div class="nombreProducto">
+				<p class="pNombreProducto">NombreProducto</p>
+			    </div>
+			    <div class="cantidadProducto">
+				<p class="pcantidadProducto">Talla:24</p>
+			    </div>
+			    <div class="precioProducto">
+				<p class="pPrecioProducto">$400</p>
+			    </div>
+		    </div>
+		</div>
+	</seccion>
+	<seccion class="totalCarrito">
+		<div class="espacioBlancoCarrito">
+		</div>
+		<div class="detallesTotalCarrito">
+			<form class="formCarrito" method="post" action="carrito.html">
+			<div class="tituloTotales">
+				<label  class="Cant  izq" >Pares:</label>
+				<label  class="mitad izq" >Precio:</label>
+				<label  class="mitad izq" >Descuento:</label>
+				<label  class="mitad izq" >Total:</label>
+			</div>
+			<div class="infoTotales">
+				<label  class="mitad der" >3</label>
+				<label  class="mitad der" >$1200</label>
+				<label  class="mitad der" >$0</label>
+				<label  class="mitad der rojo" >$1200</label>
+			</div>
+		<form>			
+	<!--</div class="cantidadPares">
+			<div>
+			</div class="precioNormal">
+			<div>
+			</div class="descuento">
+			<div>
+			</div class="costoEnvio">
+			<div>
+			</div class="total">
+			<div>
+		</div>-->
+	</seccion>
+	<div clas="btn"> 
+		<button type="submit" class="btnComprar">Comprar</button>
+	</div>
+        <div class="divFooter">
+	   <footer id="footer"></footer>
+           <script src="js/jquery-1.9.1.min.js"></script>
+            <script type="text/javascript">
+           $('#footer').load('footer.html');
+           </script>
+	</div>
+</body>
+<html>

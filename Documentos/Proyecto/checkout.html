@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+	
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<title>Confirmar Compra</title>
+	<meta content="Confirmar compra" name="description" />
+	<link href="css/checkout.css" rel="stylesheet" type="text/css" />
+	<link href="img/shoes.ico" rel="icon" type="favicon.png" />
+	
+    
+
+</head>
+<body>
+
+	<footer id="header"></footer>
+	<script src="js/jquery-1.9.1.min.js"></script>
+ 	<script type="text/javascript">
+	      $('#header').load('header.html');
+	</script>
+
+<div id="compra">
+<h1>Confimar Compra</h1>
+
+<form action="" method="post">
+<h1 id="label1">Datos del Cliente</h1>
+
+<div><!--<label for="email">email:</label>--><input id="name" name="name" required="" type="input" placeholder="Nombre(s)" /></div>
+
+<div><input id="lastname" name="lastname" required="" type="input" placeholder="Apellidos" /></div>
+
+<div><input id="lada" name="lada" required="" type="input" placeholder="Lada" /> <input id="phone" name="phone" required="" type="input" placeholder="Telefono" /></div>
+
+<div><input id="adress" name="adress" required="" type="input" placeholder="Direccion" /></div>
+
+<div><input id="state" name="state" required="" type="input" placeholder="Estado" /></div>
+
+<div><input id="zip-code" name="zip-code" required="" type="input" placeholder="Codigo Postal" /></div>
+
+<div><button id="b1" type="submit">Continuar</button></div>
+</form>
+
+<form action="" method="post">
+<h1 id="label2">Metodo de envio</h1>
+
+<div><input id="send1" name="send" type="radio" value="Opcion 1" /> <label for="send1">Opcion 1</label></div>
+
+<div><input id="send2" name="send" type="radio" value="Opcion 2" /> <label for="send2">Opcion 2</label></div>
+
+<div><input id="send3" name="send" type="radio" value="Opcion 3" /> <label for="send3">Opcion 3</label></div>
+
+<h1 id="label3">Forma de Pago</h1>
+
+<div><select><option value="Mastercard">Mastercard</option><option value="Tarjeta2">Tarjeta2</option><option value="Tarjeta3">Tarjeta3</option><option value="Tarjeta4">Tarjeta4</option> </select></div>
+
+<div><input id="cardnum" name="cardnum" required="" type="input" placeholder="xxxx-xxx-xxx" /></div>
+
+<div><input id="cardmonth" name="cardmonth" required="" type="input" placeholder="xx" /> <input id="cardyear" name="cardyear" required="" type="input" placeholder="xx" /></div>
+
+<div><button id="b2" type="submit">Continuar</button></div>
+</form>
+
+<form action="" method="post">
+<h1 id="label4">Confirmar Compra</h1>
+
+<div id="product"><img heigth="100" src="img/product-1.jpg" width="100" /></div>
+
+<div>
+<p>Producto:xxx</p>
+
+<p>Cantidad:xxx</p>
+
+<p>Precio:</p>
+</div>
+
+<div id="total">
+<p>Total:</p>
+</div>
+
+<!--<Embed src = "carrito.html">-->
+<div><button id="b3" type="submit">Confirmar Compra</button></div>
+</form>
+</div>
+
+<footer id="footer"></footer>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+      $('#footer').load('footer.html');
+    </script>
+    
+</body>
+
+</html>

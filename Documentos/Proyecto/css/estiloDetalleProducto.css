@@ -1,0 +1,63 @@
+
+.producto{
+	border-style: solid;
+	border-radius: 15px;
+	background:rgba(178, 203, 212, 0.66) none ;
+	border-color: #0E0444;
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+	text-align:center;
+
+}
+.sliderProducto{
+	border-style: solid;
+	width: 47.5%;
+	height:70%;
+	margin-top: 2.5%;
+	margin-left:2.5%;
+	border-radius: 15px;
+	border-color: #0E0444;
+float: left;
+
+}
+
+.infoProducto{
+	width: 45.5%;
+	height: 85%;
+	margin-top: 2.5%;
+	margin-right:2.5%;
+float: left;
+}
+.precioProducto{
+	font-weight:bold;
+	color:#DA0F0F;
+}
+.descripcion{
+	font-weight:bold;
+	color:#061D57;
+}
+.detalleProducto{
+	width: 80%;
+	height: 50%;
+	margin: 2.5% auto;
+}
+.elegirProducto
+{
+	width: 80%;
+	height: 25%;
+	margin: 2.5% auto;
+}
+.agregarProducto{
+	margin-bottom: 0%;
+	margin-right:2.5%;
+	float: right;
+}
+.botonProducto{
+	border-radius: 10px;
+	font-weight:bold;
+	color:#061D57;
+	background:#67B8D8;
+	height: 30px;
+}
+

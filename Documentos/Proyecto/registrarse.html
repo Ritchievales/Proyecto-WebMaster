@@ -1,0 +1,108 @@
+<!-- primer formulario: usuario, pass, confirmar pass. 
+segundo: usuario, nombre apellidos, direccion, alias, 
+calle, numero, pais, estado, municipio, colonia, codigo postal, telefono, anotar correo, articulo de interes-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Registrarse</title>
+		<link rel="stylesheet" type="text/css" href="css/form2.css"/>
+		<meta charset="utf-8">
+		<meta http-equiv="refresh" content="60">
+	</head>
+	
+	<body>
+		<form method="post" action="formulario.html">
+			
+				<fieldset>
+				<legend>Datos personales</legend>
+					<div>
+						<label for="Usuario">Nombre</label>
+						<input type="text" id="Usuario" name="Nombre" required>
+					</div>
+					<div>
+						<label for="Correo">Correo</label>
+						<input type="email" id="Correo" name="Correo"required>
+					</div>
+					<div>
+						<label for="Password">Password</label>
+						<input type="password" id="Password" name="Password" required>
+					</div>
+					<div>
+						<label for="ConfirmarPassword">Confirmar Password</label>
+						<input type="password" id="ConfirmarPassword" name="ConfirmarPassword" required>
+					</div>
+					<div>
+						<label for="sexo">Masculino</label>
+						<input type="radio" id="sexo" name="Formulario" value="masculino">
+					</div>
+					<div>
+						<label for="sexo">Femenino</label>
+						<input type="radio" id="sexo" name="Formulario" value="masculino">
+					</div>
+				</fieldset>
+
+				<!--<fieldset>
+				<legend>Dirección y teléfono</legend>
+					<div>
+						<label for="Calle">Calle</label>
+						<input type="text" id="Calle" name="Formulario">
+					</div>
+					<div>
+						<label for="Numero">Número</label>
+						<input type="text" id="Numero" name="Formulario">
+					</div>
+					<div>
+						<label for="Colonia">Colonia</label>
+						<input type="text" id="Colonia" name="Formulario">
+					</div>
+					<div>
+						<label for="Municipio">Municipio</label>
+						<input type="text" id="Municipio" name="Formulario">
+					</div>
+					<div>
+						<label for="Estado">Estado</label>
+						<input type="text" id="Estado" name="Formulario">
+					</div>
+					<div>
+						<label for="Pais">País</label>
+						<input type="text" id="Pais" name="Formulario">
+					</div>
+					<div>
+						<label for="Codigo postal">Código Postal</label>
+						<input type="text" id="Codigo postal" name="Formulario">
+					</div>
+					<div>
+						<label for="Telefono">Teléfono</label>
+						<input type="tel" id="Telefono" name="Formulario" required>
+					</div>
+				</fieldset>
+		
+				<fieldset>
+				<legend>Acerca de usted</legend>
+					<div>
+						<label for="Intereses">Libros</label>
+						<input type="checkbox" id="Intereses" name="Formulario" value="Libros">
+					</div>
+					<div>
+						<label for="Intereses">Deportes</label>
+						<input type="checkbox" id="Intereses" name="Formulario" value="Deportes">
+					</div>
+					<div>
+						<label for="Intereses">Fiestos</label>
+						<input type="checkbox" id="Intereses" name="Formulario" value="Fiestas">
+					</div>
+					<div>
+						<label for="Intereses">Música</label>
+						<input type="checkbox" id="Intereses" name="Formulario" value="Musica">
+					</div>
+					<div>
+						<label for="foto">Adjuntar fotografía</label>
+						<input type="file" id="foto" name="Formulario">			
+					</div>
+				</fieldset>-->
+				<div>
+					<input type="submit" value="Enviar todo">
+				</div>	
+		</form>
+	</body>
+</html>

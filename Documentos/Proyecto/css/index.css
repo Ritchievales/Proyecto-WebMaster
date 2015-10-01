@@ -1,0 +1,139 @@
+ol#lista li {
+    display: inline;
+}
+/*
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 4%;
+}
+
+ul#menu li a:hover {
+    background-color: #98DAFC;
+	color:black;
+}
+*/
+#principal{
+	border-style: solid;
+	border-color: #98DAFC; 
+	border-width: 3px; 
+        border-radius: 10px;
+	height:auto;
+        width:auto;
+        padding: 5px
+}
+
+#articulos{
+	border-style: solid;
+	border-color: #98DAFC;
+	border-width: 3px;
+        border-radius: 10px;
+	padding:5px;
+	height:600px;
+	margin: 10px;	
+}
+
+#articulog{
+	display:inline-block;
+	float:left;
+        margin:5px;
+	border-style: solid;
+	border-color: gray; 
+        border-radius: 10px;
+	border-width: 1px;
+	padding: 2px;
+	width:50%;
+	height:96%;
+	text-align:left;
+}
+
+#articulom{
+	display:inline-block;
+        margin:5px;
+	border-style: solid;
+	border-color: gray; 
+	border-width: 1px;
+        border-radius: 10px;
+	padding: 2px;
+	width:620px;
+	height:250px;
+	text-align:left;
+}
+
+#articulop{
+	display:inline-block;
+	float:left;
+        margin:5px;
+	border-style: solid;
+	border-color: gray; 
+	border-width: 1px;
+        border-radius: 10px;
+	padding: 2px;
+	width:45%;
+	height:45%;
+	text-align:left;
+}
+
+#cuadro{
+	list-style-type: square;
+}
+
+ol.n {list-style-type: none;}
+
+
+@media only screen and (max-width: 500px) {
+    /*ul#menu li a {
+    background-color: initial;
+    color: black;
+    font-size: large;
+    }   
+
+    ul#menu li a:hover {
+        background-color: initial;
+	color:#98DAFC;
+    }
+*/
+    #articulos{
+      height:1000px;
+    }
+
+    #articulog{
+       width:95%;
+       height:45%;
+    }
+    
+    #articulop{
+      height:25%;
+      width:70%;
+    }
+
+}
+
+@media only screen and (min-width:501px) and (max-width: 1000px)  {
+
+    #articulos{
+      height:1000px;
+    }
+
+    #articulog{
+       width:95%;
+       height:45%;
+    }
+    
+    #articulop{
+      height:25%;
+      width:70%;
+    }
+}

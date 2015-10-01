@@ -1,0 +1,134 @@
+#encabezado
+{
+	border-style: solid;
+	border-width: 1px 0px;
+        border-color: #2586d7;
+	background-color: #98DAFC;
+	height:60px;
+}
+#logo
+{
+	margin-left: 20px;
+}
+#menu{
+	position: absolute;
+	left: 25%;
+	top: 1%;
+}
+#flogin{
+	border-style: none;
+}
+
+#button li {
+	display: inline;
+}
+
+
+#button li a {
+text-decoration: none;
+font-size: large;
+float:left;
+padding: 10px;
+margin-left: 10px;
+background-color: #98DAFC;
+color: #fff;
+}
+
+#button li a:hover {
+bottom-color: #2586d7;
+border-bottom-style: solid;
+border-bottom-color: #FF8A65;
+
+}
+#carrito{
+	position: absolute;
+	top:3%;
+	left: 80%;
+}
+#data
+{
+	position: absolute;
+	top: 2%;
+	left: 83%;
+	margin-left: 10px;
+}
+input{
+	width: 40%;
+}
+#bheader
+{
+	position: absolute;
+	top: 5%;
+	left: 83%;
+	margin-left: 10px;
+	
+}
+#registro{
+	position: absolute;
+	top: 5%;
+	left: 92%;
+}
+
+#icon{
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+}
+
+@media(max-width: 500px) {
+#button li a{
+	width: 100%;
+}
+#menu{
+	position: absolute;
+	left: 80%;
+	top: 3%;
+}
+#icon{
+	display:inline-block;	
+	}
+  #menu ul, #menu:active ul{
+   	display: none;
+	top: 5%;
+	width: 50%;
+   }
+   #menu li {
+		text-align: left;
+		width: 100%;
+	}
+   #menu:hover ul {
+		display: block;
+
+	}
+   #carrito{
+	position: absolute;
+	top:3%;
+	left: 35%;
+}
+	#flogin{
+	border-style: none;
+	}
+	#data
+	{
+	position: absolute;
+	top: 3%;
+	left: 45%;
+	margin-left: 10px;
+	}
+	#login input
+	{
+		width: 20%;
+	}
+	input{
+		width: 40%;
+	}
+	#bheader
+	{
+	position: absolute;
+	top: 8%;
+	left: 45%;
+	margin-left: 10px;
+	}
+	}

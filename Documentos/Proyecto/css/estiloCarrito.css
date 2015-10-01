@@ -1,0 +1,113 @@
+.productoCarrito{
+	width: 100%;
+	height:300px;
+}
+.filtro{
+	margin:30px 0;
+
+}
+.filtro{
+	width: 100%;
+
+}
+.grupoProducto{
+	width: 100%;
+}
+.tituloProducto{
+	background: #98DAFC;
+	width: 100%;
+	height:25px;
+        float:left;
+}
+.divProducto{
+	width: 38%;
+	display: block;
+	float:left;
+	height:300px;
+	text-align:center;
+	vertical-align:middle;
+}
+.imgProducto{
+	width: 60%;
+	border-style: solid;
+	height:60%;
+	margin:12% auto;
+	vertical-align:middle;
+}
+.nombreProducto{
+	width: 20%;
+	display: block;
+	float:left;
+	height:300px;
+	text-align:center;
+	vertical-align:middle;
+}
+.cantidadProducto{
+	width: 20%;
+	display: block;
+	float:left;
+	height:300px;
+	text-align:center;
+	vertical-align:middle;
+}
+.precioProducto{
+	width: 20%;
+	display: block;
+	float:left;
+	height:300px;
+	text-align:center;
+	vertical-align:middle;
+}
+.pNombreProducto{
+	width: 100%;
+	margin:50% auto;
+	vertical-align:middle;
+	float:left;
+}
+.pCantidadProducto{
+	width: 100%;
+	margin:50% auto;
+	vertical-align:middle;
+	float:left;
+}
+.pPrecioProducto{
+	color:red;
+	width: 100%;
+	margin:50% auto;
+}
+.totalCarrito{
+	width: 100%;
+}
+.detallesTotalCarrito{
+	background: #98DAFC;
+	width: 25%;
+	display: block;
+	float:right;
+}
+.espacioBlancoCarrito{
+	width: 70%;
+	display: block;
+	float:right;
+}
+.mitad{
+	display:block;	
+}
+.izq{
+	margin:5px 0px 0px 0px;
+}
+.der{
+	margin:4px 0px 0px 0px;
+}
+.tituloTotales{
+	float:left;
+	width:30%;
+	padding:0px 55px;
+	text-align:left;
+}
+.infoTotales{
+	float:left;
+	width:25%;
+}
+.rojo{
+	color:red;
+}
