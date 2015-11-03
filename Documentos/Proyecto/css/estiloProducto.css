@@ -1,44 +1,347 @@
-.producto{
-	border-style: solid;
-	border-radius: 15px;
-	background:rgba(178, 203, 212, 0.66) none ;
-	border-color: #0E0444;
-	width: 300px;
-	height: 300px;
-	float: left;
-	margin: 45px;
-        text-align:center;
+.slider-wrapper li img{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
 }
-.sliderProducto{
-	border-style: solid;
-	width: 90%;
-	height:50%;
-	margin: 2.5% auto 0;
-	border-radius: 15px;
-	border-color: #0E0444;
+.producto {
+    border-style: solid;
+    border-radius: 15px;
+    background: rgba(178, 203, 212, 0.66) none repeat scroll 0% 0%;
+    border-color: #0E0444;
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+    text-align: center;
 }
 
-.infoProducto{
-	width: 90%;
-	height:45%;
-	margin: 0% auto;
 
+.sliderProducto {
+    width: 47.5%;
+    margin-top: 2.1%;
+    margin-left: 3.5%;
+    float: left;
+    height: 90%;
+}
+
+.infoProducto {
+    width: 45.5%;
+    margin-right: 2.5%;
+    float: left;
+    margin-top: 2.1%;
+    height: 90%;
 }
 .precioProducto{
 	font-weight:bold;
 	color:#DA0F0F;
 }
-.nombreProducto{
+.descripcion{
 	font-weight:bold;
 	color:#061D57;
 }
-.detalleProducto{
+.detalleProducto {
+    width: 80%;
+    height: 40%;
+    margin: 0% auto;
+    margin-top: -3%;
+}
+.elegirProducto
+{
+	width: 80%;
+	height: 25%;
+	margin: 2.5% auto;
+}
+.agregarProducto{
+	margin-right: 2.5%;
+	float: right;
+	height: 25%;
+	margin-bottom: 0%;
+}
+.botonProducto{
 	border-radius: 10px;
-	font-weight:bold;
-	color:#061D57;
-	background:#67B8D8;
-	margin-right:0px;
+	font-weight: bold;
+	color: #061D57;
+	background: #67B8D8 none repeat scroll 0% 0%;
 	height: 30px;
-	text-align:center;
+	margin-bottom: 0px;
+	margin-top: 55px;
 }
+.ancho {
+	height: 50%;
+}
+.izq {
+	width: 40%;
+	text-align:right;
+	float: left;
+	margin-top: 3px;
+}
+.der {
+	width: 40%;
+	text-align:center;
+	float: left;
+
+}
+/**
+ * Fondo: #242c38
+ * Gris Claro: #415066
+ * Verde Azulado: #00c5b9
+ ----------------------------------------*/
+* {
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto', Arial, Tahoma, Sans-serif, Verdana, Helvetica;
+}
+
+
+
+a {
+	color: #00c5b9;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+
+/**
+ * Contendor del Slider
+ ----------------------------------------*/
+.slider-container {
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto",Arial,Tahoma,sans-serif,Verdana,Helvetica;
+    font-size: 70%;
+    border-radius: 15px;
+    height: 85%;
+}
+
+.slider-wrapper {
+    position: relative;
+    z-index: 90;
+    width: 100%;
+    border: 5px solid #084B8A;
+    overflow: hidden;
+    height: 85%;
+}
+
+.slider-wrapper li {
+	display: none;
+}
+
+li.slide-current {
+	display: block;
+}
+
+.slider-wrapper li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+/**
+ * Caption
+ ----------------------------------------*/
+.caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	padding: 0px;
+	height:25%;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.caption-title {
+	color: #00c5b9;
+	font-weight: 700;
+	font-size: 1.6em;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.caption p {
+	margin:0;
+	color: #FFF;
+	font-size: 1.4em;
+	line-height: .3em;
+}
+
+.slider-wrapper li:hover .caption {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/**
+ * Sombras
+ ----------------------------------------*/
+.shadow {
+    margin-top: -3%;
+    width: 100%;
+    height: 15px;
+    position: relative;
+}
+
+.shadow:after, .shadow:before {
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: #084B8A;
+	position: absolute;
+	border:solid;
+	border-color:#084B8A;
+	left: 10px;
+	top: -20px;
+	-webkit-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+	-webkit-box-shadow: 0 0 15px 8px #084B8A;
+	-moz-box-shadow: 0 0 15px 8px #084B8A;
+	box-shadow: 0 0 15px 8px #084B8A;
+}
+
+.shadow:after {
+	left: auto;
+	right: 10px;
+	-webkit-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+
+/**
+ * Controles del Slider
+ ----------------------------------------*/
+.slider-controls {
+    width: 90%;
+    height: 5%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.slider-controls li {
+	background: #084B8A;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+.slider-controls li.active {
+	background: #00c5b9;	
+}
+
+@media all and (max-width: 1020px){
+* {
+    font-size: small;
+}
+.producto {
+    width: 90%;
+    height: 300px;
+    margin: 0px auto;
+}
+.sliderProducto {
+    margin-top: 2.1%;
+    margin-left: 3.5%;
+    height: 90%;
+}
+
+.slider-container {    
+    width: 95%;
+    margin: 0px auto;
+    font-size: 70%;
+    height: 75%;
+    margin-bottom: 30px;
+}
+.slider-wrapper {
+    height: 85%;
+}
+.detalleProducto {
+    margin: 0% auto;
+}
+.botonProducto {
+    margin-top: 20px;
+}
+.caption-title {
+	font-weight: 700;
+	font-size: 1.1em;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+.caption p {
+	font-size: 1em;
+	line-height: .3em;
+}
+
+}
+
+@media all and (max-width: 767px){
+    .producto {
+    height: 600px;
+}
+.sliderProducto {
+    margin-top: 10px;
+    margin-left: .2%;
+    height: 45%;
+    width:100%;
+}
+
+.infoProducto {
+    width: 100%;
+    height: 45%;
+    margin-top: 20px;
+    margin-right: 0px;
+    float: left;
+}
+
+.slider-container {    
+    width: 95%;
+    margin: 0px auto;
+    font-size: 70%;
+    height: 75%;
+    margin-bottom: 30px;
+}
+}
+
+@media all and (max-width: 500px){
+
+.shadow {
+    margin-top:-4%;
+}
+}
+
+@media all and (max-width: 360px){
+* {
+    font-size: x-small;
+}
+.producto {
+    height: 500px;
+}
+}
+
+
+
 

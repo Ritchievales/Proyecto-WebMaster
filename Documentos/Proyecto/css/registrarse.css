@@ -1,0 +1,178 @@
+#formulario{
+  height: auto;
+  margin: 100px 50px;
+  border-radius:10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.etiqueta
+{
+	background-color:#98DAFC;
+	color: white;
+        text-align:center;
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+}
+
+.remove_field{
+   margin-left:60%;
+}
+.cuadro{
+  float: left;
+  width: 25%;
+  text-align:right;
+}
+
+.input{
+  width: 45%;
+}
+
+body{
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+#reg{
+ margin-top:20px;
+}
+
+.error {
+    margin-left:35%;
+    background-color: #ffc8b1;
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.m{
+  margin-top:10px;
+}
+
+
+.registrar{
+ margin-left:42%;
+ border-radius: 10px;
+ font-weight: bold;
+ color: #061D57;
+ background: #67B8D8;
+ height: 30px;
+}
+
+input.radio:empty {
+	visibility: hidden;
+}
+
+input.radio:empty ~ label {
+	position: relative;
+	left: 25%;
+	float: left;
+	line-height: 1.5em;
+	text-indent: 2.25em;
+	
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.radio:empty ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 1.5em;
+	background: #D1D3D4;
+	border-radius: 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';
+	text-indent: .4em;
+	
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #888;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .4em;
+	color: #061D57;
+	background-color: #00b2ff;
+}
+
+input.radio:checked ~ label {
+	color: #777;
+}
+
+@media only screen and (max-width: 500px) {
+  #formulario{
+   margin: 5px 10px;
+  }
+  
+  .cuadro{
+   width:30%;
+   font-size: 16px;
+  }
+  .input{
+    width:50%;
+  }
+  .m{
+   height:40px;
+   margin-top:5px;
+  }
+
+  .largo{
+   height:40px;
+  }
+  .error{
+   margin-left:15%;
+   font-size: 14px;
+  }
+  #cbox{
+   margin-left: 10%;
+  }
+  .registrar{
+    margin-left: 40%;
+    margin-top:10px;
+  }
+
+   #title{
+   font-size:20px;
+   }
+   
+}
+
+@media only screen and (min-width:501px) and (max-width: 900px)  {
+  #formulario{
+   margin: 5px 10px;
+  }
+
+  .cuadro{
+   font-size:16px;
+   }
+
+  .m{
+   height:40px;
+   margin-top:5px;
+  }
+
+  .error{
+   width:25%;
+   font-size:14px;
+  }
+
+  #cbox{
+   margin-left: 10%;
+  }
+
+   #title{
+   font-size:22px;
+   }
+}

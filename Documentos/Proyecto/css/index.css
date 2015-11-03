@@ -1,139 +1,182 @@
-ol#lista li {
-    display: inline;
-}
-/*
-ul#menu {
-    padding: 0;
-}
+#footer{ clear: both;}
 
-ul#menu li {
-    display: inline;
+.etiqueta
+{
+	background-color:#98DAFC;
+	color: white;
+        text-align:center;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
-ul#menu li a {
-    background-color: black;
-    color: white;
-    font-size: x-large;
-    padding: 10px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 4%;
-}
-
-ul#menu li a:hover {
-    background-color: #98DAFC;
-	color:black;
-}
-*/
-#principal{
-	border-style: solid;
-	border-color: #98DAFC; 
-	border-width: 3px; 
-        border-radius: 10px;
-	height:auto;
-        width:auto;
-        padding: 5px
-}
-
 #articulos{
-	border-style: solid;
-	border-color: #98DAFC;
-	border-width: 3px;
-        border-radius: 10px;
 	padding:5px;
-	height:600px;
+	height: 850px;
 	margin: 10px;	
 }
 
-#articulog{
+.pro:hover, .prog:hover, #slider:hover{
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.pro{
+        width:280px;
+        height:180px;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.prog{
+        width:99%;
+        height:99%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.articulom{
 	display:inline-block;
 	float:left;
         margin:5px;
-	border-style: solid;
-	border-color: gray; 
-        border-radius: 10px;
-	border-width: 1px;
-	padding: 2px;
-	width:50%;
-	height:96%;
-	text-align:left;
+        width:32%;
+        height:auto;
 }
 
-#articulom{
-	display:inline-block;
-        margin:5px;
-	border-style: solid;
-	border-color: gray; 
-	border-width: 1px;
-        border-radius: 10px;
-	padding: 2px;
-	width:620px;
-	height:250px;
-	text-align:left;
-}
-
-#articulop{
-	display:inline-block;
+.articulog{
 	float:left;
         margin:5px;
-	border-style: solid;
-	border-color: gray; 
-	border-width: 1px;
-        border-radius: 10px;
-	padding: 2px;
-	width:45%;
-	height:45%;
-	text-align:left;
+        height:500px;
+        width:66%;
+}
+.articulop{
+        float:right;
+        display:inline;
+        margin:10px;
 }
 
-#cuadro{
-	list-style-type: square;
+
+#slider{
+  margin-top: 80px;
+  border-radius:10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-ol.n {list-style-type: none;}
 
-
-@media only screen and (max-width: 500px) {
-    /*ul#menu li a {
-    background-color: initial;
-    color: black;
-    font-size: large;
-    }   
-
-    ul#menu li a:hover {
-        background-color: initial;
-	color:#98DAFC;
-    }
-*/
-    #articulos{
-      height:1000px;
+@media only screen and (max-width: 579px) {
+    .articulog{
+       width:auto;
     }
 
-    #articulog{
-       width:95%;
-       height:45%;
-    }
-    
-    #articulop{
-      height:25%;
-      width:70%;
+    .articulom{
+      width:100%;
+      margin:2px;
+
     }
 
-}
-
-@media only screen and (min-width:501px) and (max-width: 1000px)  {
+   .prog{
+    width:99%;
+    height:99%;
+   }
+  
+   .pro{
+        width:110px;
+        height:75px;
+    }
+   .articulop{
+        margin:5px;
+    }
 
     #articulos{
-      height:1000px;
+	height: 900px;
+     }
+}
+
+
+@media only screen and (min-width:580px) and (max-width: 899px)  {
+    .articulog{
+       float:right;
+       width:65%;
     }
 
-    #articulog{
-       width:95%;
-       height:45%;
+    .articulom{
+      width:28%;
+      margin:2px;
     }
-    
-    #articulop{
-      height:25%;
-      width:70%;
+
+   .prog{
+    width:99%;
+    height:99%;
+   }
+  
+   .pro{
+        width:120px;
+        height:80px;
+    }
+   .articulop{
+        margin:2px;
+    }
+
+    #articulos{
+	height: 400px;
+     }
+}
+
+
+@media only screen and (min-width:900px) and (max-width: 1250px)  {
+    .articulog{
+       float:right;
+       width:67%;
+    }
+
+    .articulom{
+      width:28%;
+    }
+
+   .prog{
+    width:99%;
+    height:99%;
+   }
+  
+   .pro{
+        width:150px;
+        height:120px;
+    }
+   .articulop{
+        margin:5px;
+    }
+
+    #articulos{
+	height: 500px;
+     }
+}
+
+
+@media only screen and (min-width:1251px) and (min-width: 1284px)  {
+
+    #articulos{
+	height: 900px;
+     }
+   .prog{
+    width:99%;
+    height:99%;
+   }
+  
+   .pro{
+        width:150px;
+        height:120px;
+    }
+}
+
+@media only screen and (min-width:1285px){
+
+    #articulos{
+	height: 750px;
+     }
+   .prog{
+    width:99%;
+    height:99%;
+   }
+  
+   .pro{
+        width:200px;
+        height:150px;
     }
 }

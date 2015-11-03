@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Nuevo administrador</title>
+    <link rel="stylesheet" type="text/css" href="css/adduser.css"/>
+    <meta charset="utf-8">
+    <meta name="author" content="Equipo:Web Masters">
+    <link href="img/shoes.ico" rel="icon" type="image/x-icon" />
+  </head>
+	
+  <body>
+    <div>
+      <header id="header"></header>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="js/validar-registraradmin.js"></script> 
+      <script type="text/javascript">
+      $('#header').load('header.html');
+      </script>
+    </div>
+
+    <div>
+      <form id="formulario" method="post" action="formulario.html">
+        <div>
+          <h2 class="etiqueta">Agregar nuevo administrador</h2>
+        </div>
+         <fieldset style="border:0px">
+	  <div class="m">
+	    <label class="cuadro" for="nombre">Nombre: </label>
+	    <input class="input" type="text" id="nombre" placeholder=" Nombre">
+	  </div>
+	  <div>
+            <label class="error" id="enombre" style="display:none">▲Error al introducir nombre </label> 
+	  </div>
+	  <div class="m">
+	    <label class="cuadro" for="apellidos">Apellidos: </label>
+	    <input class="input" type="text" id="apellidos" placeholder=" Apellidos">
+	  </div>
+	  <div>
+            <label class="error" id="eapellido" style="display:none">▲Error al introducir apellidos </label> 
+          </div>
+	  <div class="m">
+	    <label class="cuadro" for="correo">Correo: </label>
+	    <input class="input" type="email" id="correo" placeholder=" Ingresar una dirección de correo válida">
+	  </div>
+	  <div>
+            <label class="error" id="ecorreo" style="display:none">▲Error al introducir correo </label> 
+	  </div>
+	  <div class="m" class="largo">
+	    <label class="cuadro" for="confirmarcorreo">Confirmar correo: </label>
+	    <input class="input" type="email" id="correo2" placeholder=" Confirmar correo electrónico">
+	  </div>
+	  <div>
+            <label class="error" id="ecorreo2" style="display:none">▲Error al confirmar correo </label> 
+          </div> 
+	  <div class="m">
+	    <label  class="cuadro" for="contrasena">Contraseña: </label>
+            <input class="input" type="password" id="contrasena" name="password" placeholder=" Ingresar contraseña (mínimo 6 caracteres)">
+	  </div>
+	  <div>
+            <label class="error" id="econtrasena" style="display:none">▲Error al ingresar contraseña </label> 
+          </div>
+          <div class="m" class="largo">
+	    <label  class="cuadro" for="contrasena2">Confirmar contraseña: </label>
+	    <input class="input" type="password" id="contrasena2" placeholder=" Confirmar contraseña">
+	  </div>
+	  <div>
+            <label class="error" id="econtrasena2" style="display:none">▲Error al confirmar contraseña </label> 
+          </div>
+
+	  <div class="m">
+            <input  id="cbox" type="checkbox" value="general" class="radio"> 
+            <label for="cbox">Administrador general</label>
+	  </div>
+
+          <div class="m" class="largo">
+	    <label  class="cuadro" for="contrasena3">Contraseña de acceso: </label>
+	    <input class="input" type="password" id="contrasena3" placeholder=" Contraseña de autenticación">
+	  </div>
+	  <div>
+            <label class="error" id="econtrasena3" style="display:none">▲Error al identificarse </label> 
+          </div>
+
+
+          <div id="reg">
+           <button type="button" class="registrar" >Agregar</button>
+          </div>
+       </fieldset>	
+      </form>
+    </div>
+
+
+    <div>
+       <footer id="footer"></footer>
+       <script type="text/javascript">
+       $('#footer').load('footer.html');
+       </script>
+    </div>
+  </body>
+</html>

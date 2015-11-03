@@ -1,29 +1,46 @@
 #encabezado
-{
-	border-style: solid;
-	border-width: 1px 0px;
-        border-color: #2586d7;
+{	
 	background-color: #98DAFC;
 	height:60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	box-shadow: 0 0 3px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	font-family: 'Lucida Grande';
+	font-style: normal;
+	font- size: 20%;
+	
 }
-#logo
-{
+#logo{
 	margin-left: 20px;
+	margin-top: 10px;
+}
+body{
+	font-family: 'Lucida Grande';
+	font-style: normal;
+
 }
 #menu{
 	position: absolute;
-	left: 25%;
-	top: 1%;
+	left: 15%;
+	top: 0;
 }
-#flogin{
-	border-style: none;
+#login{
+	widht: 25%;
+	position: absolute;
+	left: 75%;
+	top: 20%;
 }
 
 #button li {
 	display: inline;
 }
 
-
+#label1,#label2,#label3{
+ color: white;
+}
 #button li a {
 text-decoration: none;
 font-size: large;
@@ -37,38 +54,34 @@ color: #fff;
 #button li a:hover {
 bottom-color: #2586d7;
 border-bottom-style: solid;
-border-bottom-color: #FF8A65;
-
+border-bottom-color: #4C8FEC;
 }
 #carrito{
 	position: absolute;
-	top:3%;
-	left: 80%;
+	top: 20%;
+	left: 67%;
 }
-#data
-{
-	position: absolute;
-	top: 2%;
-	left: 83%;
-	margin-left: 10px;
+.ih{
+	width: 48%;
+	float: left;
+	border-radius: 5px;
 }
-input{
-	width: 40%;
-}
-#bheader
-{
-	position: absolute;
-	top: 5%;
-	left: 83%;
-	margin-left: 10px;
+#bheader{
+	float: left;
 	
+	width: 48%;
 }
 #registro{
-	position: absolute;
-	top: 5%;
-	left: 92%;
+	width: 48%;
 }
 
+.boton{
+	border-radius: 10px;
+	font-weight:bold;
+	color: #061D57;
+ 	background: #67B8D8;
+	height: 20px;
+}
 #icon{
 
 	display: hidden;
@@ -76,22 +89,60 @@ input{
 	height: 40px;
 	background: #4C8FEC url(../img/menu-icon.png) center;
 }
+.error{
+			background-color: #ffc8b1;
+			color: red;
+			border-radius: 5px;
+			padding: 5px;
+			z-index: 100;
+		}
+/*#profile{
+	visibility: none;
+}*/
 
-@media(max-width: 500px) {
+@media(max-width:1024px) {
+	
+	#menu{
+	position: absolute;
+	left: 10%;
+	top: 0;
+}
+@media(max-width:908px) {
+	#menu{
+	position: absolute;
+	left: 5%;
+	top: 0;
+	}
+
+}
+@media(max-width: 814px) {
+
+#encabezado
+{
+	background-color: #98DAFC;
+	height:60px;
+	width: 100%;
+}
+#logo
+{
+	margin-left: 5px;
+}
 #button li a{
 	width: 100%;
 }
 #menu{
 	position: absolute;
-	left: 80%;
-	top: 3%;
+	left: 5em;
+	top: 10%;
 }
 #icon{
 	display:inline-block;	
 	}
   #menu ul, #menu:active ul{
    	display: none;
-	top: 5%;
+   	position: relative;
+	top: -6%;
+	left: -25%;
 	width: 50%;
    }
    #menu li {
@@ -102,33 +153,30 @@ input{
 		display: block;
 
 	}
-   #carrito{
+  #carrito{
 	position: absolute;
-	top:3%;
-	left: 35%;
+	top: 20%;
+	left: 80%;
+	}
+	#login{
+		widht: 10%;
+		position: absolute;
+		left: 35%;
+		top: 20%;
+	}
+	.ih{
+	width: 24%;
+	float: left;
+	border-radius: 5px;
 }
-	#flogin{
-	border-style: none;
-	}
-	#data
-	{
-	position: absolute;
-	top: 3%;
-	left: 45%;
-	margin-left: 10px;
-	}
-	#login input
-	{
-		width: 20%;
-	}
-	input{
-		width: 40%;
-	}
-	#bheader
-	{
-	position: absolute;
-	top: 8%;
-	left: 45%;
-	margin-left: 10px;
-	}
-	}
+#bheader{
+	clear: both;
+	float: left;
+	
+	width: 24%;
+}
+#dregistro{float: left;}
+#registro{
+	width: 24%;
+}
+}

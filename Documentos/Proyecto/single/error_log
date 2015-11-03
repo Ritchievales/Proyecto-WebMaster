@@ -1,0 +1,27 @@
+[02-Nov-2015 01:50:28 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 115
+[02-Nov-2015 01:50:51 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 115
+[02-Nov-2015 01:50:57 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 115
+[02-Nov-2015 01:54:18 Etc/GMT] PHP Warning:  include(conexion.php): failed to open stream: No such file or directory in /home/proshoes/public_html/single/detalleProducto.php on line 21
+[02-Nov-2015 01:54:18 Etc/GMT] PHP Warning:  include(conexion.php): failed to open stream: No such file or directory in /home/proshoes/public_html/single/detalleProducto.php on line 21
+[02-Nov-2015 01:54:18 Etc/GMT] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/proshoes/public_html/single/detalleProducto.php on line 21
+[02-Nov-2015 01:54:18 Etc/GMT] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/proshoes/public_html/single/detalleProducto.php on line 22
+[02-Nov-2015 01:54:18 Etc/GMT] PHP Warning:  mysql_query(): A link to the server could not be established in /home/proshoes/public_html/single/detalleProducto.php on line 22
+[02-Nov-2015 01:57:41 Etc/GMT] PHP Notice:  Undefined index: IdProducto in /home/proshoes/public_html/single/detalleProducto.php on line 22
+[02-Nov-2015 02:13:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/proshoes/public_html/single/detalleProducto.php on line 24
+[02-Nov-2015 03:52:17 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 139
+[02-Nov-2015 03:56:33 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 139
+[02-Nov-2015 03:56:56 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 139
+[02-Nov-2015 03:57:31 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 139
+[02-Nov-2015 03:58:00 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 139
+[02-Nov-2015 03:59:04 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/proshoes/public_html/single/detalleProducto.php on line 139
+[02-Nov-2015 03:59:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/proshoes/public_html/single/detalleProducto.php on line 21
+[02-Nov-2015 04:55:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/proshoes/public_html/single/detalleProducto.php on line 80
+[02-Nov-2015 04:59:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/proshoes/public_html/single/detalleProducto.php on line 80
+[02-Nov-2015 05:03:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/proshoes/public_html/single/detalleProducto.php on line 80
+[02-Nov-2015 05:10:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/proshoes/public_html/single/detalleProducto.php on line 80
+[02-Nov-2015 05:22:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/proshoes/public_html/single/detalleProducto.php on line 81
+[02-Nov-2015 08:17:40 Etc/GMT] PHP Notice:  Undefined index: id in /home/proshoes/public_html/single/detalleProducto.php on line 47
+[03-Nov-2015 05:32:01 Etc/GMT] PHP Notice:  Undefined index: id in /home/proshoes/public_html/single/detalleProducto.php on line 47
+[03-Nov-2015 05:32:04 Etc/GMT] PHP Notice:  Undefined index: id in /home/proshoes/public_html/single/detalleProducto.php on line 47
+[03-Nov-2015 05:32:12 Etc/GMT] PHP Notice:  Undefined index: id in /home/proshoes/public_html/single/detalleProducto.php on line 47
+[03-Nov-2015 07:18:51 Etc/GMT] PHP Notice:  Undefined index: id in /home/proshoes/public_html/single/detalleProducto.php on line 47

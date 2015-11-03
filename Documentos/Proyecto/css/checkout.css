@@ -1,27 +1,139 @@
-@media all and (min-width: 480px){
 #compra{
+	position: abosulte;
+	left: 20em;
 	height: 100vh;
 	text-align: left;
-	clear: left;
-	margin: 10px;
+	margin-top: 75px;
 }
 
 #label1,#label2,#label3,#label4
 {
 	background-color:#98DAFC;
+	color: white;
+	border-color:black;
+	
 	position: relative;
-	top: 1%:
+	top: -20px;
+	padding:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
+}
+input
+{
+	border-radius: 5px;
+}
+radio select
+{
+	position: relative;
+	top: -20px;
+}
+input.foucs
+{
+	 border-color: #98DAFC;
+
 }
 
-form{
+#bconfirma
+{
+	border-radius: 5px;
+	font-weight:bold;
+	color:#061D57;
+	background-color:#98DAFC;
+	height: 30px;
+}
+#options div {
+	clear: both;
+	margin:30px;
+	width: 50%;
+}
 
+input.radio:empty {
+	visibility: hidden;
+}
+
+input.radio:empty ~ label {
+	position: relative;
 	float: left;
-	border-style: solid;
-	margin-left: 5%;
-	border-width: 1px;
-	/*padding-left: 125px;*/
+	line-height: 1.5em;
+	text-indent: 2.25em;
+	
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
+input.radio:empty ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 1.5em;
+	background: #D1D3D4;
+	border-radius: 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';
+	text-indent: .4em;
+	
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #888;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .4em;
+	color: #061D57;
+	background-color: #00b2ff;
+}
+
+input.radio:checked ~ label {
+	color: #777;
+}
+form{
+	float:left;
+	text-algin: center;
+	margin-left: 5%;
+	width: 20em;
+	padding-bottom: 10px;
+}
+#f1 label{
+	float: left;
+  	width: 25%;
+  	text-align:right;
+  	margin-bottom: 10px;
+}
+#f1{
+	position: absolute;
+	left: 5%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	
+}
+#f2{
+	position: absolute;
+	left: 35%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#f3{
+	position: absolute;
+	left: 65%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#f1:hover, #f2:hover, #f3:hover{
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
 #lada
 {
 	width: 10%;
@@ -41,6 +153,7 @@ form{
 	margin-right: 10px;	
 }
 #compra input, button,select{
+
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
@@ -52,21 +165,90 @@ form{
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
+
+@media (max-width: 1100px){
+	form{
+		width: 18em;
+		padding:10 px;
+		margin-bottom: 25%;
+		border-style: none;
+		border-width: 1px;
+		clear: both;
+	}
+	
+
 }
-@media (max-width: 480px){
+@media (max-width: 1000px){
+	form{
+		width: 20em;
+		padding:10 px;
+		margin-bottom: 25%;
+		border-style: none;
+		border-width: 1px;
+		clear: both;
+	}
+	#f1{
+	position: absolute;
+	top: 12em;
+	left: 30%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#f2{
+	position: absolute;
+	top: 33em;
+	left: 30%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#f3{
+	position: absolute;
+	top: 62em;
+	left: 30%;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+	
+
+}
+@media (max-width: 480px)
+{
 	#compra{
 	clear: left;
 	margin: 10px;
+	height: 100vh;
 	}
 
 	form{
-		width: 95%;
-		display: block;
+		width: 90%;
+		padding:10 px;
 		margin-bottom: 25%;
-		border-style: solid;
+		border-style: none;
 		border-width: 1px;
-		
+		clear: both;
 	}
+#f1{
+	position: absolute;
+	top: 17em;
+	left: 0;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#f2{
+	position: absolute;
+	top: 40em;
+	left: 0;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#f3{
+	position: absolute;
+	top: 73em;
+	left: 0;
+	border-radius:10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 	#lada
 	{
 		width: 10%;

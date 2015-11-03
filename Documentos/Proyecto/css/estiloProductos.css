@@ -1,77 +1,65 @@
-
-.encabezado{
-	margin: 0px 0px;
-	border-style:solid;
-	background:#0B617D; 
-	width: 100%;
-	height: 87px; 
+#footer{
+        clear: both;
+        text-align:center;
 }
-
-.filtro{
-	margin-left:6%;
-
-}
-
 .cuerpo{
-	margin: 0px 0px;
+	margin: 100px 0px 100px;
 	top: 97px;
 	width: 100%;
 }
 
 
-.promociones{
-	margin: 30px auto;
-	border-style: solid;
-	background: #999;
-	width: 700px;
-	height: 250px;
-	text-align:center;
-	border-color: #0E0444;
-	border-radius: 15px;
-}
+
 .calzado{
 	text-align: center;
 	width: 95%;
-	margin: 0px auto;
-	/*border-style: dotted;*/
-	height: 400px;
-	border-color: #73EC2B;
-	border-width: thick;
-	
+	margin: 0px 3.5% 0px 2.5%;
+	height: 300px;
 }
 .producto{
-	border-style: solid;
-	border-radius: 15px;
-	background:rgba(178, 203, 212, 0.66) none ;
-	border-color: #0E0444;
-	width: 300px;
-	height: 300px;
-	float: left;
-	margin: 45px;
+	background: rgba(178, 203, 212, 0.66) none repeat scroll 0% 0%;
+border-color: #084B8A;
+width: 17.5%;
+height: 85%;
+float: left;
+margin: 3.5%;
+font-size: small;
+box-shadow: 0px 10px 20px rgb(32, 45, 143), 0px 6px 6px rgba(0, 0, 0, 0.23);
+border-radius: 10px;
+border-style: solid;
 }
 .sliderProducto{
-	border-style: solid;
 	width: 90%;
-	height:50%;
-	margin: 2.5% auto 0;
-	border-radius: 15px;
-	border-color: #0E0444;
+height: 50%;
+margin: 2.5% auto 0px;
+border-color: #084B8A;
+box-shadow: 0px 2px 3px rgba(68, 57, 168, 0.71), 0px 10px 12px rgba(0, 0, 0, 0.22);
+border-radius: 10px;
 }
-
+.sliderProducto img{
+	width: 100%;
+	height:100%;
+border-radius: 10px;
+}
 .infoProducto{
 	width: 90%;
 	height:45%;
 	margin: 0% auto;
 	text-align:center;
+	height:40%;
 
 }
 .precioProducto{
 	font-weight:bold;
 	color:#DA0F0F;
+	margin-bottom:0px;
+	margin-top:10px;
 }
 .nombreProducto{
 	font-weight:bold;
 	color:#061D57;
+ 	margin-top:10px;
+	height:15px;
 }
 .detalleProducto{
 	border-radius: 10px;
@@ -82,3 +70,67 @@
 	height: 30px;
 }
 
+@media all and (max-width: 1272px){
+
+    .calzado {
+        margin: 0px 3.4% 0px 2.8%;
+    }
+    .producto {
+        margin: 3.4%;
+    }
+}
+@media all and (max-width: 1075px){
+
+    .calzado {
+        margin: 0px 3% 0px 5.2%;
+    }
+    .producto {
+        margin: 3.4%;
+        width: 24%;
+    }
+}
+
+@media all and (max-width: 800px){
+
+    .calzado {
+        margin:0px 3% 0px 3.8%;
+    }
+    .producto {
+        width: 34%;
+        margin: 3.4% 7%;
+    }
+}
+
+@media all and (max-width: 645px){
+
+    .calzado {
+        margin:0% 0%;
+    }
+    .producto {
+        width: 250px;
+        margin: 3.5% 28%;
+    }
+}
+
+@media all and (max-width: 515px){
+    .producto {
+        width: 250px;
+        margin: 3.5% 28%;
+    }
+
+}
+
+@media all and (max-width: 455px){
+    .producto {
+        width: 250px;
+        margin: 3.5% 23%;
+    }
+}
+
+@media all and (max-width: 420px){
+
+    .producto {
+        width: 70%;
+        margin: 3.5% 15%;
+    }
+}

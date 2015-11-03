@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    <title>Administrador de pro-shoes.org</title>
+    
+    <meta name="author" content="Equipo:Web Masters">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/shoes.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/adminpage.css"/>
+  </head>
+<body>
+<div id="area">
+    <h2 class="etiqueta">Opciones de administrador</h2>
+    <label>Agregar productos</label>
+    <input class="input" type="file" id="add">
+     <form id="formulario" method="post" action="formulario.html">
+         <fieldset style="border:0px">
+	  <div class="m">
+	    <label class="cuadro" for="modelo">Modelo: </label>
+	    <input class="input" type="text" id="modelo" placeholder=" Modelo">
+	  </div>
+	  <div>
+            <label class="error" id="emodelo" style="display:none">▲Error al introducir modelo </label> 
+	  </div>
+
+          <div class="m">
+	    <label class="cuadro" for="marca">Marca: </label>
+	    <input class="input" type="text" id="marca" placeholder=" Marca">
+	  </div>
+	  <div>
+            <label class="error" id="emarca" style="display:none">▲Error al introducir marca </label> 
+	  </div>
+          
+
+          <div id="reg">
+           <button type="button" id="agregar" >Agregar producto</button>
+          </div>
+       </fieldset>	
+      </form>
+    
+</div>
+
+</body>
+</html>

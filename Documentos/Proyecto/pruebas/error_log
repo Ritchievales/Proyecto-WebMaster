@@ -1,0 +1,37 @@
+[01-Nov-2015 21:58:35 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/proshoes/public_html/pruebas/conexion.php on line 6
+[01-Nov-2015 21:59:31 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/proshoes/public_html/pruebas/conexion.php on line 6
+[01-Nov-2015 22:00:09 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'208.91.199.144' (using password: NO) in /home/proshoes/public_html/pruebas/conexion.php on line 6
+[01-Nov-2015 22:02:20 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'208.91.199.144' (using password: NO) in /home/proshoes/public_html/pruebas/conexion.php on line 6
+[01-Nov-2015 22:03:20 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/proshoes/public_html/pruebas/conexion.php on line 6
+[01-Nov-2015 22:09:51 Etc/GMT] PHP Notice:  Undefined index: imagen in /home/proshoes/public_html/pruebas/index.php on line 27
+[01-Nov-2015 22:09:51 Etc/GMT] PHP Notice:  Undefined index: nombre in /home/proshoes/public_html/pruebas/index.php on line 28
+[01-Nov-2015 22:09:51 Etc/GMT] PHP Notice:  Undefined index: imagen in /home/proshoes/public_html/pruebas/index.php on line 27
+[01-Nov-2015 22:09:51 Etc/GMT] PHP Notice:  Undefined index: nombre in /home/proshoes/public_html/pruebas/index.php on line 28
+[01-Nov-2015 22:13:23 Etc/GMT] PHP Notice:  Undefined index: imagen in /home/proshoes/public_html/pruebas/index.php on line 27
+[01-Nov-2015 22:13:23 Etc/GMT] PHP Notice:  Undefined index: nombre in /home/proshoes/public_html/pruebas/index.php on line 28
+[01-Nov-2015 22:13:23 Etc/GMT] PHP Notice:  Undefined index: imagen in /home/proshoes/public_html/pruebas/index.php on line 27
+[01-Nov-2015 22:13:23 Etc/GMT] PHP Notice:  Undefined index: nombre in /home/proshoes/public_html/pruebas/index.php on line 28
+[02-Nov-2015 21:53:48 Etc/GMT] PHP Notice:  Undefined index: IdProducto in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 21:58:10 Etc/GMT] PHP Notice:  Undefined index: IdProducto in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:00:18 Etc/GMT] PHP Notice:  Undefined index: IdProducto in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:05:17 Etc/GMT] PHP Notice:  Undefined index: IdProducto in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:06:31 Etc/GMT] PHP Notice:  Undefined index: IdProducto in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:07:15 Etc/GMT] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE) in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:07:23 Etc/GMT] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE) in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:09:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE) in /home/proshoes/public_html/pruebas/detalles.php on line 20
+[02-Nov-2015 22:10:17 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/proshoes/public_html/pruebas/carritodecompras.php on line 49
+[02-Nov-2015 22:35:32 Etc/GMT] PHP Parse error:  syntax error, unexpected ''<center><h2>No has a' (T_ENCAPSED_AND_WHITESPACE) in /home/proshoes/public_html/pruebas/carritodecompras.php on line 104
+[02-Nov-2015 22:35:39 Etc/GMT] PHP Parse error:  syntax error, unexpected ''<center><h2>No has a' (T_ENCAPSED_AND_WHITESPACE) in /home/proshoes/public_html/pruebas/carritodecompras.php on line 104
+[02-Nov-2015 22:38:16 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:29 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:29 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:43 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:43 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:49 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:49 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:58 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:38:58 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:39:16 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:39:16 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[02-Nov-2015 22:39:16 Etc/GMT] PHP Notice:  Undefined index: Precio in /home/proshoes/public_html/pruebas/carritodecompras.php on line 100
+[03-Nov-2015 03:38:30 Etc/GMT] PHP Notice:  Undefined index: id in /home/proshoes/public_html/pruebas/detalles.php on line 20

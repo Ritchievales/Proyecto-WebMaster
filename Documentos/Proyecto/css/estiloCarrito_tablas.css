@@ -1,0 +1,352 @@
+#wrapper{
+   	position: abosulte;
+	left: 20em;
+	height: 100vh;
+	text-align: left;
+	margin-top: 75px;
+}
+th {
+        color:white;
+}
+input[name=seleccionaTodos]{
+	margin-top:15px;
+}
+.divSeleccionarTodos{
+	width: 45%;
+	display:block;
+	float:left;
+	text-align:right;
+	vertical-align:middle;
+}
+.divFiltro{
+	width: 50%;
+	display:block;
+	float:left;
+	margin: 0 auto;
+}
+.divLimpiar{
+	width: 50px;
+	display:block;
+	float:left;
+	text-align: right;	
+
+}
+.tdCheckProducto{
+	width: 15px;
+	display:block;
+	float:left;	
+}
+.divEliminar{
+	height: 30px;
+	text-align:right;
+	margin-top:0px;
+}
+.precio{
+	height: 160px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.modificarCarrito{
+	width: 80%;
+	margin: 90px auto 0px;
+	height: 45px;
+}
+tr{
+	border-bottom:solid;
+	border-color:#1C2527;
+}
+table{
+	border-collapse:collapse; 
+	border-radius:15px;
+	margin:0 auto;
+	background:white;
+	width: 100%;
+
+}
+th{	
+	background:#1C2527;
+	height:30px;
+}
+ 
+.azul{
+	background:#65D8F2;
+	height:20px;
+	border:none;
+}
+.divSeccProducto{
+	width: 80%;	
+	clear: both;
+	margin: 0 auto;
+}
+.productoCarrito{
+	width: 100%;
+	height:300px;
+	clear: both;
+
+}
+.grupoProducto{
+	width: 100%;
+}
+.tituloProducto{
+	background: #98DAFC;
+	width: 100%;
+	height:25px;
+}
+.divProducto{
+	width: 40%;
+	height:285px;
+	text-align:center;
+}
+.imgProducto{
+	width: 60%;
+	border-style: solid;
+	height:60%;
+	margin:8% auto 5% auto;
+	vertical-align:middle;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+        border-radius: 10px;
+        border-color: #98DAFC;
+}
+
+.cantidadProducto{
+	width: 40%;
+	height:285px;
+	text-align:center;
+	vertical-align:middle;
+}
+.precioProducto{
+	clear: both;
+	width: 20%;
+  
+	height:285px;
+	text-align:center;
+}
+.espacioVertical{
+	height:90px;
+}
+.pNombreProducto{
+	width: 100%;
+	vertical-align:middle;
+}
+.pCantidadProducto{
+	width: 100%;
+	margin:50% auto;
+	vertical-align:middle;
+	float:left;
+}
+.separarAbajo{
+	margin-bottom:20px;
+}
+.pPrecioPorProducto{
+	color:red;
+	vertical-align:middle;
+}
+.pPrecioProducto{
+	color:red;
+	width: 100%;
+	margin:40% auto;
+	vertical-align:middle;
+}
+.botonC{
+	border-radius: 10px;
+	font-weight:bold;
+	color:#061D57;
+	background:#67B8D8;
+	margin-right:0px;
+	height: 30px;
+}
+.anchoBoton{
+	width:200px;
+}
+
+.totalCarrito{
+	width: 80%;
+        height:203px;
+        margin: 0px auto 55px;
+}
+.detallesTotalCarrito{
+	background: #98DAFC;
+	width: 35%;
+	float:left;
+	height:200px;
+	margin-bottom:25px;
+	margin-top:25px;
+        border-radius: 10px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+}
+.espacioBlancoCarrito{
+	width: 65%;
+	float:left;
+	height:200px;
+	margin-bottom:25px;
+	margin-top:25px;
+
+}
+.mitad{
+	display:block;	
+	float:left;
+}
+.izq{
+	text-align:right;
+	width:40%;
+}
+.der{
+	text-align:center;
+	width:60%;	
+}
+.tituloTotales{
+float: left;
+width: 40%;
+text-align: left;
+margin-top: 30px;
+margin-left: 15%;
+}
+.infoTotales{
+float: left;
+width: 30%;
+	text-align:right;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.btn{
+float: left;
+width: 40%;
+margin-left: 15%;
+}
+.formCarrito{
+	margin-right:0;
+}
+.rojo{
+	color:red;
+}
+
+@media all and (max-width: 940px){
+
+*{
+	font-size:small;
+}
+}
+@media all and (max-width: 800px){
+
+*{
+	font-size:small;
+}
+.modificarCarrito{
+	width: 90%;
+	margin: 90px auto 0px;
+}
+
+.divSeccProducto{
+	margin-top:30px;
+	width: 90%;	
+	clear: both;
+	margin: 0 auto;
+}
+.detallesTotalCarrito{
+	width: 40%;
+}
+.espacioBlancoCarrito{
+	width: 60%;
+
+}
+
+}
+@media all and (max-width: 768px){
+
+*{
+	font-size:small;
+}
+
+.modificarCarrito{
+	width: 95%;
+}
+.divSeccProducto{
+	width: 95%;	
+	clear: both;
+	margin: 0 auto;
+}
+/*cambiar el tamaño de la tabla a 100%*/
+}
+
+@media all and (max-width: 550px){
+
+*{
+	font-size:small;
+}
+.modificarCarrito{
+	width: 100%;
+}
+.divSeccProducto{
+	width: 100%;	
+	clear: both;
+	margin: 0 auto;
+}
+.divProducto{
+	width:60%;
+}
+
+.precioProducto{
+	width:10%;
+}
+.cantidadProducto{
+	width:30%;
+}
+.detallesTotalCarrito{
+	width: 50%;
+}
+.espacioBlancoCarrito{
+	width: 50%;
+
+}
+}
+@media all and (max-width: 450px){
+*{
+	font-size:x-small;
+}
+.anchoBoton {
+    width: 140px;
+}
+.imgProducto {
+    width: 80%;
+    height: 60%;
+    margin: 8% auto 5%;
+}
+.der {
+    text-align: right;
+    width: 60%;
+}
+.detallesTotalCarrito {
+    width: 100%;
+    height: 150px;
+}
+.espacioBlancoCarrito {
+    width: 0%;
+    height: 150px;
+}
+.tituloTotales {
+    margin-top: 20px;
+}
+.infoTotales {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modificarCarrito{
+	width: 100%;
+}
+.divSeccProducto{
+	width: 100%;	
+	clear: both;
+	margin: 0 auto;
+}
+.divProducto{
+	width:60%;
+}
+
+.precioProducto{
+	width:10%;
+}
+.cantidadProducto{
+	width:30%;
+}
+}

@@ -1,0 +1,40 @@
+<head>
+	<title></title>
+	</head>
+<body>
+	<select id="estado">
+		<option value="0" onchangue="traeMunicipios()"> Selecciona estado</option>
+	</select>
+	<script type="text/javascript">
+
+	//al cargar la pagina llenar el select de los edos
+		//cuando carga
+	
+//function traeMuicipios(){
+		$(function(){
+			//hacer peticion a estados.php
+			$.ajax({
+    			'type':'GET',
+			'url': 'estados.php',
+			'dataType':'json',
+			//'data': 'estado':document.getElemetById('estado'.value)}
+			'success': fuction(misdatos){
+				//imprimir en consola los estados
+				console.log(misdatos)
+
+				for(i in misdatos){
+				console.log(misdatos[i]);
+				var opt = createElement('option');
+				$('#estado').appendChild(opt);
+
+				}
+
+			}
+                 })
+			//crear objetos option por cada elemento de mi json
+		});
+	
+	
+	</script>
+</body>
+</html>

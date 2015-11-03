@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<body>
+	<select id="estado">
+		<option value="0">Selecciona el estado</option>
+
+	</select>	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
+		$(function(){
+				$.ajax({
+    
+    			url : 'estados.php',
+ 
+    			type : 'GET',
+    			
+    			dataType : 'json',
+ 
+    			success : function(misdatos){
+    				console.log(misdatos);
+
+    				for(i in misdatos){
+    					console.log(misdatos[i]);
+    					var opt = createElement('option');
+
+    					$('#estado').appendChild(opt);
+    				}
+    			}
+				});
+
+		});
+
+	
+	</script>
+	
+</body>
+</html>
